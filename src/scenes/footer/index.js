@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import Logo from "@/assets/Logo.png";
+const Footer = () => {
+    return (_jsx("footer", { className: "bg-primary-100 py-16", children: _jsxs("div", { className: "justify-content mx-auto w-5/6 gap-16 md:flex", children: [_jsxs("div", { className: "mt-16 basis-1/2 md:mt-0", children: [_jsx("img", { alt: "logo", src: Logo }), _jsx("p", { className: "my-5", children: "Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum purus et arcu massa dictum condimentum. Augue scelerisque iaculis orci ut habitant laoreet. Iaculis tristique." }), _jsx("p", { children: "\u00A9 Evogym All Rights Reserved." })] }), _jsxs("div", { className: "mt-16 basis-1/4 md:mt-0", children: [_jsx("h4", { className: "font-bold", children: "Links" }), _jsx("p", { className: "my-5", children: "Massa orci senectus" }), _jsx("p", { className: "my-5", children: "Et gravida id et etiam" }), _jsx("p", { children: "Ullamcorper vivamus" })] }), _jsxs("div", { className: "mt-16 basis-1/4 md:mt-0", children: [_jsx("h4", { className: "font-bold", children: "Contact Us" }), _jsx("p", { className: "my-5", children: "Tempus metus mattis risus volutpat egestas." }), _jsx("p", { children: "(333)425-6825" })] })] }) }));
+};
+export default Footer;
