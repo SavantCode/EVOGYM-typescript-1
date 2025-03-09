@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                     // Or any other target you're using
+    "module": "ESNext",                  // Or "CommonJS", based on your project setup
+    "moduleResolution": "node",          // Ensures TypeScript resolves modules like Node.js
+    "baseUrl": "./src",                  // Sets the base directory for resolving non-relative paths
+    "paths": {
+      "@/*": ["./*"]                     // Creates an alias "@" for the "src" folder
+    },
+    "jsx": "react-jsx",                  // Or "react" if you're using React
+    "esModuleInterop": true,             // Ensures compatibility with CommonJS and ES modules
+    "strict": true,                      // Enables strict mode for better type checking
+    "skipLibCheck": true                 // Skips type checking of declaration files for faster builds
+  },
+  "include": [
+    "src/**/*.ts",                       // Includes all TypeScript files in the "src" directory
+    "src/**/*.tsx",                      // Includes all TypeScript React files
+    "src/**/*.d.ts"                      // Includes declaration files
+  ],
+  "exclude": [
+    "node_modules"                       // Excludes "node_modules" folder from compilation
+  ]
+}
